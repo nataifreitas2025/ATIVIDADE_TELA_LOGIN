@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg,red,black);
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+
+
+.conteudo {
+    background-color: rgb(117, 236, 236);
+    font-family: arial, sans-serif;
+    border-radius: 20px;
+    width: 260px;
+}
+
