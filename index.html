@@ -9,14 +9,19 @@
 <body>
     <div class="conteudo">
         
-        <label id="inpUsuario">Login:</label><br>
+        <label id="inpUsuario">Login:</label>
         <input id="inpUsuario" type="text" placeholder="000.000.000-00" ><br>
 
-        <label id="inpSenha">Senha:</label><br>
+        <label id="inpSenha">Senha:</label>
         <input id="inpSenha" type="password" placeholder="Senha"><br>
 
         <button onclick="entrarPagina()">Entrar</button>
 
+    </div>
+
+    <div class="tipo-usuario">
+        <button class="btn-tipo ativo" onclick="selecionarTipo('aluno', this)">Aluno</button>
+        <button class="btn-tipo" onclick="selecionarTipo('docente', this)">Docente</button>
     </div>
 
 
