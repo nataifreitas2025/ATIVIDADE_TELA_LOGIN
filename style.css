@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center; /* centro horizontal */
     align-items: center;     /* centro vertical */
-    background: rgb(255, 255, 255);
+    background: rgb(69, 80, 30);
   }
   
   /* Caixa do login */
@@ -45,6 +45,8 @@
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
+    justify-content: center;
+    gap: 10px;
   }
   
   .btn-tipo {
@@ -53,7 +55,7 @@
     border: 1px solid #333;
     background: #ddd;
     cursor: pointer;
-    border-radius: 6px;
+    border-radius: 100px;
   }
   
   .btn-tipo.ativo {
@@ -61,4 +63,18 @@
     color: white;
     font-weight: bold;
   }
+
+  .login-box {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+
+    .logo-login {
+      width: 110px;        /* tamanho da logo */
+      display: block;
+      margin: 0 auto 10px; /* centraliza e dá espaço embaixo */
+  }
+}  
   
